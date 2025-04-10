@@ -5,13 +5,17 @@ body {
   background-color: #f9f9f9;
   color: #222;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-/* App container styles */
 .app-container {
   text-align: center;
-  padding: 5vh 2rem;
+  max-width: 600px;
 }
+
 
 /* Heading */
 h1 {
